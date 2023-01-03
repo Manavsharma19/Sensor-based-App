@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.find.me.fragments.HomeFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/roundbtn2"
+            android:layout_margin="@dimen/_10sdp"
+            android:layout_height="match_parent">
+            <com.google.android.gms.maps.MapView
+                android:id="@+id/mapView"
+                android:layout_width="match_parent"
+                android:layout_margin="@dimen/_10sdp"
+                android:layout_height="match_parent"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/_10sdp"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:weightSum="2"
+
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/emergency_contact"
+                    android:textSize="11sp"
+                    android:id="@+id/emContact"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:background="@drawable/roundbtngdarkgreen"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_height="@dimen/_40sdp">
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/relative_contacts"
+                    android:textSize="11sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:id="@+id/relContact"
+                    android:textColor="@color/black"
+                    android:background="@drawable/roundbtngdarkgreen1"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_height="@dimen/_40sdp">
+
+                </TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/locateme"
+                    android:textSize="11sp"
+                    android:textStyle="bold"
+                    android:id="@+id/sendSms"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:background="@drawable/roundbtngdarkgreen"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_height="@dimen/_40sdp">
+
+                </TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

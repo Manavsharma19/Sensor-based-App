@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">FindMe</string>
+
+    <!-- Strings related to login -->
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="google_maps_key">AIzaSyCXhN6B7hHEYpjyP5xV0SrxJQWtOfXhV2o</string>
+    <string name="emergency_contact">Emergency Contact</string>
+    <string name="relative_contacts">Relative Contact</string>
+    <string name="locateme">FindMe</string>
+    <string name="contacts">Contacts</string>
+    <string name="explanation_string">On this page, we store all emergency numbers so \n that you can contact them as soon as possible</string>
+    <string name="phone_number">Phone number</string>
+    <string name="id">National Id</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="your_profile">Your Profile</string>
+    <string name="registration_form">Registration Form</string>
+    <string name="cancel">Cancel</string>
+    <string name="register">Register</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="update_mobile_number">Update Mobile Number</string>
+    <string name="sign_in">Sign in</string>
+    <string name="welcome_to_locateme">Welcome to LocAteMe</string>
+    <string name="welcome_text">Let us help you in your time of need, keep all \n emergency number and relatives in one place</string>
+    <string name="create_account">Create Account</string>
+    <string name="emergency_call">Emergency call</string>
+    <string name="call_for_help_by_phone">Call for help by phone</string>
+    <string name="connection_type">* Connection type</string>
+    <string name="select">Select:</string>
+    <string name="police">Police (999)</string>
+    <string name="ambulance_997">Ambulance (997)</string>
+    <string name="civil_defence_998">Civil Defence (998)</string>
+    <string name="traffic_accidents_993">Traffic Accidents (993)</string>
+    <string name="roads_security_996">Roads Security (996)</string>
+    <string name="najm">Najm (920000560)</string>
+    <string name="call">Call</string>
+    <string name="name">Name</string>
+    <string name="update">Update</string>
+    <string name="add_contacts">Add contacts</string>
+
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "979308163290",
+    "project_id": "dashboard-44335",
+    "storage_bucket": "dashboard-44335.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979308163290:android:de9967a37ecc2543dc35e3",
+        "android_client_info": {
+          "package_name": "com.find.me"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "979308163290-41j9208b2pe8kjflntcrs4fh6le48sfs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChbYisYKUA5Y865fjPZGz0q4Rs42auK6A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "979308163290-41j9208b2pe8kjflntcrs4fh6le48sfs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
